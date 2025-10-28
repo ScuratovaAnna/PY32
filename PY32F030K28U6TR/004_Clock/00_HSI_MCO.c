@@ -48,13 +48,13 @@
 #define PA8_MCO_AF5                 (0x5UL)
 
 #define RCC_SYSCLK_DIV_1            0x00000000U
-#define RCC_SYSCLK_DIV_2            (RCC_CFGR_HPRE_3)                                    // SYSCLK not divided                                                  /*!< SYSCLK divided by 2 */
-#define RCC_SYSCLK_DIV_4            (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_0)                  // SYSCLK divided by 4
-#define RCC_SYSCLK_DIV_8            (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_1)                  // SYSCLK divided by 8
-#define RCC_SYSCLK_DIV_16           (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_1 | RCC_CFGR_HPRE_0)// SYSCLK divided by 16
-#define RCC_SYSCLK_DIV_64           (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2)                  // SYSCLK divided by 64
-#define RCC_SYSCLK_DIV_128          (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2 | RCC_CFGR_HPRE_0)// SYSCLK divided by 128
-#define RCC_SYSCLK_DIV_256          (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2 | RCC_CFGR_HPRE_1)// SYSCLK divided by 256
+#define RCC_SYSCLK_DIV_2            (RCC_CFGR_HPRE_3)                                                       // SYSCLK not divided 
+#define RCC_SYSCLK_DIV_4            (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_0)                                     // SYSCLK divided by 4
+#define RCC_SYSCLK_DIV_8            (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_1)                                     // SYSCLK divided by 8
+#define RCC_SYSCLK_DIV_16           (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_1 | RCC_CFGR_HPRE_0)                   // SYSCLK divided by 16
+#define RCC_SYSCLK_DIV_64           (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2)                                     // SYSCLK divided by 64
+#define RCC_SYSCLK_DIV_128          (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2 | RCC_CFGR_HPRE_0)                   // SYSCLK divided by 128
+#define RCC_SYSCLK_DIV_256          (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2 | RCC_CFGR_HPRE_1)                   // SYSCLK divided by 256
 #define RCC_SYSCLK_DIV_512          (RCC_CFGR_HPRE_3 | RCC_CFGR_HPRE_2 | RCC_CFGR_HPRE_1 | RCC_CFGR_HPRE_0) //SYSCLK divided by 512
 
 #define RCC_APB1_DIV_1              0x00000000U                                           // HCLK not divided
