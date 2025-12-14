@@ -12,7 +12,7 @@ operating frequency of 48 MHz, and contains various products in different packag
 |Flash      |64 Kbytes   | 
 |RAM        |8 Kbytes of SRAM|
 
-![alt-текст](https://github.com/ScuratovaAnna/PY32/blob/main/photo/000.jpg "PY32F030K28U6TR.") 
+![alt-текст](https://github.com/ScuratovaAnna/PY32/blob/main/Images/000.jpg "PY32F030K28U6TR.") 
 
 ### Development Environment
 ---
